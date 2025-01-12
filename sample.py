@@ -2,7 +2,7 @@ from rectpack import newPacker
 import matplotlib.pyplot as plt
 
 # IPブロックデータ
-blocks = [(5, 10),(5, 10), (8, 8),(8, 8), (6, 7),(4, 7),(15,25)]  # (幅, 高さ)
+blocks = [(5, 10),(5, 10), (8, 8),(8, 8), (6, 7),(4, 7),(15,25), (8, 8),(8, 8), (6, 7),(4, 7),(15,25)]  # (幅, 高さ)
 
 # 最小チップサイズ探索
 def find_minimum_chip_size(blocks):
